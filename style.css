@@ -1,0 +1,212 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto Condensed;
+
+}
+/* body{
+    background-color: #13100B;
+} */
+
+#main-background{
+    scroll-behavior: smooth;
+    background-color: #13100B;
+}
+.herder-container{
+    display: flex;
+    justify-content:space-around;
+    width: 100%;
+    height: 30%;
+    background-color: #FFFFFF;
+    align-items: center;
+    position: sticky;
+    top: 0;
+
+}
+
+.logo{
+    color:#13100B;
+    font-family: Roboto Condensed;
+    font-size: 40px;
+}
+
+.text-container{
+    margin-right: 150px;
+}
+
+ul{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 250px;
+}
+
+li{
+    list-style-type: none;
+    font-size: 15px;
+    padding: 15px;
+}
+
+li a{
+    text-decoration: none;
+}
+
+.socials{
+    margin-left: 250px;
+}
+
+.socials img{
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.image img{
+    background-color: #13100B;
+    border-radius: 70%;
+    width: 300px;
+    height: 300px;
+    margin-left: 100px;
+    margin-top: 40px;
+}
+
+.image-hero{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 30px;
+}
+.name{
+    font-size: 50px;
+    color:#FFFFFF;
+    padding-right: 10px;
+    animation-name:  slide-in;
+    animation-duration: 3s;
+}
+
+@keyframes slide-in{
+    from{
+        margin-left:100%;
+        width:300px;
+    }
+    to{
+        margin-left: 0%;
+
+    }
+}
+
+.names{
+    font-size: 30px;
+    color:#FFFFFF;
+    animation-name: slide-out;
+    animation: 4s;
+    animation-delay: 2s;
+}
+
+@keyframes slide-out{
+    from{
+        margin-top: 100%;
+        width: 400px;
+    }
+
+to{
+    margin-right: 0%;
+}
+}
+
+.text-container{
+    margin-top: 150px;
+}
+
+button{
+    margin-top: 20px;
+    height: 40px;
+    width: 40%;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    background-color: #D3D3D3;
+    border:  solid 2px  #030303;
+    cursor: pointer;
+}
+
+.about{
+    color: #13100B;
+    background-color:#D3D3D3
+    ;
+    height: 300px;
+    width: 100%;
+    display: flex;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 2px;
+    justify-content: space-between;
+}
+
+.about-me{
+    padding-top: 80px;
+    font-size: 40px;
+    margin-left:90px;
+}
+
+.about-text{
+    padding-top: 80px;
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+.button{
+    height: 40px;
+    width: 40%;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    box-shadow: 0px 25px -20px(#FFFFFF);
+    cursor: pointer;
+    color: #13100B;
+}
+
+.Skills{
+    background-color:#808080;
+    height: 150px;
+}
+
+.my-skills{
+color: #FFFFFF;
+display: flex;
+justify-content:space-between;
+padding-bottom: 10px;
+padding-left: 90px;
+
+}
+
+
+ ul{
+    margin-right: 250px;
+}
+.projects{
+    background-color: #FFFFFF;
+    display: flex;
+}
+
+
+.pro{
+    padding-left: 30px;
+    padding-top: 20px;
+    color: #030303;
+}
+
+
+
+.img-hold img{
+    margin: auto;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.pro-1{
+    padding-left: 30px;
+    color: #FFFFFF;
+}
+
+button a{
+    text-decoration: none;
+}
