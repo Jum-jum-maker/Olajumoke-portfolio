@@ -185,6 +185,12 @@ padding-left: 90px;
 .projects{
     background-color: #FFFFFF;
     display: flex;
+    width: 60vw;
+    flex-direction: column;
+}
+#topl{
+    display: flex;
+    flex-wrap: wrap;
 }
 
 
