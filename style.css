@@ -167,6 +167,8 @@ button{
     box-shadow: 0px 25px -20px(#FFFFFF);
     cursor: pointer;
     color: #13100B;
+    transition:  0.5s ease; 
+
 }
 
 .Skills{
@@ -246,13 +248,15 @@ padding-top: 60px;
 .pro-1{
     padding-left: 30px;
     color:#030303;
-    color:#808080 ;
+    /* color:#808080 ; */
     border: none;
+    cursor: pointer;
 }
 
- a .pro-1{
+ a{
     text-decoration: none;
-    color: #030303;
+    color:black;
+    
 }
 
 button a{
