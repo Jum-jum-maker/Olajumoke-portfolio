@@ -218,8 +218,22 @@ to{
 .Skills{
     height: 100%;
     width: 100%;
-    background-color:#030303;
+    background-color:BLUE;
+    padding: 1em;
 }
+
+
+.skills{
+    text-align: center;
+}
+
+.skillSet{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: s;
+    flex-direction: row;
+}
+
 
 .hero-button{
     padding: 0px;
@@ -236,12 +250,6 @@ width: 100%;
 }
 
 
- .skillSet{
-    display: flex;
-    flex-direction: row;
-
-
-}
 
 .skl{
     font-size: 30px;
