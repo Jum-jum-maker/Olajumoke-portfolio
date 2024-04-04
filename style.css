@@ -2,7 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Roboto Condensed;
+    font-family: "Poppins";
+
 
 }
 /* body{
@@ -24,7 +25,9 @@
     top: 0;
 
 }
-
+.menuBtn{
+    display: none;
+}
 .logo{
     color:#13100B;
     font-family: Roboto Condensed;
@@ -36,7 +39,7 @@ li a{
     color: #030303;
 }
 .text-container{
-    margin-right: 150px;
+    /* margin-right: 150px; */
 }
 
 ul{
@@ -66,21 +69,22 @@ li a{
 
 .image img{
     background-color: #13100B;
-    border-radius: 80%;
-    width: 300px;
-    height: 300px;
-    margin-left: 100px;
-    margin-top: 40px;
+    border-radius: 100%;
+    width: 500px;
+    height: 500px;
+    /* margin-left: 100px;
+    margin-top: 40px; */
 }
 
 .image-hero{
     display: flex;
-    justify-content: space-between;
-    margin-right: 30px;
-    height: 40vh;
+    justify-content: space-evenly;
+    width: 100%;
+    place-items: center;
+
 }
 .name{
-    font-size: 50px;
+    font-size: 70px;
     color:#FFFFFF;
     padding-right: 10px;
     animation-name:  slide-in;
@@ -99,7 +103,7 @@ li a{
 }
 
 .names{
-    font-size: 30px;
+    font-size: 40px;
     color:#FFFFFF;
     animation-name: slide-out;
     animation: 4s;
@@ -118,89 +122,140 @@ to{
 }
 
 .text-container{
-    margin-top: 150px;
+    margin-top: 30px;
 }
 
-button{
-    margin-top: 20px;
+
+/* .button{
     height: 40px;
+    width:40px;
+    border-color: #030303;
+} */
+
+#contact-me{
+    margin-top: 20px;
+    height: 50px;
     width: 40%;
     border-radius: 10px;
     border: none;
     outline: none;
+    color: #13100B;
     background-color: #D3D3D3;
     border:  solid 2px  #030303;
     cursor: pointer;
 }
 
+    /* .download-cv{
+        margin-top: 50px;
+        margin-left: 20px;
+        height: 40px;
+        width: 10%;
+        border-radius: 10px;
+        border: none;
+        outline: none;
+        background-color: #D3D3D3;
+        border:  solid 2px  #030303;
+        cursor: pointer;
+
+
+} */
+
 .about{
-    color: #13100B;
-    background-color:#D3D3D3
-    ;
-    height: 300px;
     width: 100%;
+    height: 100%;
     display: flex;
-    margin: auto;
-    margin-top: 50px;
-    border-radius: 2px;
-    justify-content: space-between;
+    justify-content:space-evenly;
+    background-color:#D3D3D3;
+    padding: 5em;
+    padding-left: 70px;
 }
 
+    /* color: #13100B;
+    background-color:#D3D3D3;
+    height:100%;
+    /* height: 450px; */
+    /* width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 2em 0;
+    text-align: center;
+    place-items:center;
+    justify-content: space-between; */ 
+/* } */
+
 .about-me{
-    padding-top: 80px;
-    font-size: 40px;
-    margin-left:90px;
+    font-size: 2.5em;
+    /* text-align: center;  */
 }
 
 .about-text{
-    padding-top: 80px;
-    font-size: 20px;
-    margin-right: 20px;
+    font-size: 1.5em;
+    margin-left: 3em;
 }
+    .download-cv{
+        padding: 1em;
+        border-radius: 10px;
+        border: none;
+        outline: none;
+        background-color: #D3D3D3;
+        border:  solid 2px  #030303;
+        cursor: pointer; 
+        margin-left: 70px;
+        margin-top: 20px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 1.0); /* Apply box shadow */
 
-.button{
-    height: 40px;
-    width: 40%;
-    border-radius: 10px;
-    border: none;
-    outline: none;
-    box-shadow: 0px 25px -20px(#FFFFFF);
-    cursor: pointer;
-    color: #13100B;
-    transition:  0.5s ease; 
+    
+    }
+    /* .img-top: 5px;
+    margin-left: 40px; */
+    /* padding-left: 15px; */
+    /* padding: 0 3em; */
 
-}
+
+
+
 
 .Skills{
-    background-color:#808080;
-    height: 200px;
-    /* height: 150px; */
-
+    height: 100%;
+    width: 100%;
+    background-color:#030303;
 }
 
-.my-skills{
+.hero-button{
+    padding: 0px;
+}
+
+/* .my-skills{
 color: #FFFFFF;
+padding: 30px;
 display: flex;
-justify-content:space-between;
-padding-bottom: 10px;
-padding-left: 90px;
-height: 250px;
-padding-top: 60px;
+background-color:#13100B;
+width: 100%;
+
 
 }
 
 
- ul{
-    margin-right: 250px;
+ .skillSet{
+    display: flex;
+    flex-direction: row;
+
+
 }
 
 .skl{
     font-size: 30px;
-}
+    margin-left: 30PX;
+    
+} */
+
+
+
 .projects{
-    background-color: #FFFFFF;
+    background-color:#030303;
     display: flex;
     /* width: 60vw; */
+    padding: 1em;
     flex-direction: column;
 }
 
@@ -218,7 +273,7 @@ padding-top: 60px;
     margin-top: 30px;
     justify-content:center;
     /* background-color:  #343434 */
-    ;
+    
 }
 
 .top2{
@@ -233,16 +288,18 @@ padding-top: 60px;
 }
 
 .pro-hold{
-    height: 100vh;
-    background-color:#505251;
-    margin-top: 0;
+    min-height: 100vh;
+    background-color:#D3D3D3;
+    /* margin:2em; */
+    max-width: 100%;
+    
 }
 
 
 .img-hold img{
     margin: auto;
     margin-top: 20px;
-    margin-left: 20px;
+    margin-left: 60px;
 }
 
 .pro-1{
