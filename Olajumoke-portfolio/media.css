@@ -1,0 +1,253 @@
+@media only screen and (max-width:768px){
+   .menuLi{
+    display: none;
+   }
+   .socials{
+    display: none;
+   } 
+   .menuBtn{
+    display: block;
+    background-color: transparent;
+    border: none;
+    outline: none;
+   }
+
+   .image img{
+    background-color: #13100B;
+    border-radius: 100%;
+    width: 200px;
+    height: 200px;
+   }
+
+
+   .image-hero{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    height: 90vh;
+
+   }
+
+   .name{
+    padding-top: 4px;
+    font-size: 35px;
+    text-align: center;
+    padding-left: 10px;
+   }
+
+   .names{
+    font-size: 30px;
+    padding-top: 5px;
+    padding-left: 10px;
+    color:#FFFFFF;
+    animation-name: slide-out;
+    animation: 4s;
+    animation-delay: 2s;
+}
+
+
+.txt-container{
+    margin-top:20px;
+}
+#contact-me{
+    margin-top: 20px;
+    height: 50px;
+    width: 50%;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    background-color: #D3D3D3;
+    border:  solid 2px  #030303;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.about{
+    color: #13100B;
+    background-color:#D3D3D3;
+    /* height: 50vh;  */
+     width: 100%; 
+    display: flex;
+    flex-wrap: wrap; 
+    padding:  1em ;
+    height: 100%;
+}
+
+
+    .about-me{
+        text-align: center;
+        place-items: center;
+        padding-bottom: 1rem; 
+        font-size: 1.5rem;
+    }
+
+ .about-texts{
+        font-size: 1rem;
+        padding: 0.2rem 0;
+        margin-top: 0;
+        margin-bottom: 2rem;
+        /* margin-left: 3em; */
+    }
+
+       .download-cv{
+        /* height: 45px;
+        width: 40%; */
+        padding: 1em;
+        border-radius: 10px;
+        border: none;
+        outline: none;
+        background-color: #D3D3D3;
+        border:  solid 2px  #030303;
+        cursor: pointer; 
+        margin-left: 20px;
+        margin-top: 20px;
+    
+    
+    }
+    
+
+
+        /* font-size: 0.5 rem; */
+        /* text-align: center;
+        padding-top: 20px; */
+        /* padding-left: 15px; */
+
+    
+
+    
+    
+
+
+
+/* .my-skills{
+    color: #FFFFFF;
+    justify-content:first baseline;
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color:#13100B;
+    height: 300px;
+} */
+    
+   /* .about{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    height: 400px;
+    width: 100%;
+   } */
+
+   
+
+   .Skills{
+    height: 100%;
+    width: 100%;
+    background-color:#030303;
+    padding: 1em;
+}
+
+.skills{
+    text-align: center;
+    font-size: 1.5rem;
+    padding-bottom: 0.5rem;
+    text-align: center;
+    padding: 1em 2em;
+}
+
+.skillSet{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: right;
+    margin-right:14rem;
+    /* flex-direction: column; */
+    background-color: antiquewhite;
+    text-align: center;
+    place-items: center;
+}
+
+
+
+
+
+
+
+   /* .my-skills{
+    color: #FFFFFF;
+    padding: 30px;
+    display: flex;
+    background-color:#13100B;
+    width: 100%;
+    height: 100%;
+   } */
+
+   /* .skillSet{
+    display: flex;
+    flex-wrap: wrap;
+    /* margin-left: 120px; */
+    /* height: 100%; */
+
+
+/* .skl{
+    font-size: 30px;
+
+} */
+   .hero-button{
+    height:40px;
+    width: 40px;
+   }
+
+   .pro-hold{
+    background-color:#D3D3D3;
+    height: 100%;
+    width: 100vw;  
+    margin-top:0px;
+    padding: 1rem;
+}
+.ject{
+    font-size: 30px;
+    text-align: center;
+}
+
+.img-hold img{
+    margin-top: 20px;
+    margin: 0.5em 0px;
+    align-items: center;
+
+    
+}
+
+#topl{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    justify-content:left;
+    
+}
+
+.top2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+
+
+ /* .top2{
+    display: flex;
+    flex-wrap: wrap;
+ }
+ img{
+    width: 100%;
+    display: none;
+ }
+ .logoImg{
+    display: block;
+ }
+ .image{
+    display: flex;justify-content: center;align-items: center;
+margin-top:50px ;
+ }
+
+   
+ */
