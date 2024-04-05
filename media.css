@@ -71,29 +71,26 @@
     /* height: 50vh;  */
      width: 100%; 
     display: flex;
-    padding: 1em;
-    flex-direction: column;
-    /* flex-wrap: wrap; */
-    /* margin-top: 10px; */
-    /* border-radius: 2px; */
-    /* margin-bottom: 4em; */
-    /* justify-content: space-between; */
-
-
+    flex-wrap: wrap; 
+    padding:  1em ;
+    height: 100%;
 }
+
 
     .about-me{
         text-align: center;
         place-items: center;
-        padding-top: 20px;  
+        padding-bottom: 1rem; 
         font-size: 1.5rem;
     }
 
-    .about-text{
-        font-size: 0.8rem;
-        padding: 1em 2em;
-         text-align: left; 
-       }
+ .about-texts{
+        font-size: 1rem;
+        padding: 0.2rem 0;
+        margin-top: 0;
+        margin-bottom: 2rem;
+        /* margin-left: 3em; */
+    }
 
        .download-cv{
         /* height: 45px;
@@ -148,8 +145,20 @@
    .Skills{
     height: 100%;
     width: 100%;
-    background-color:BLUE;
+    background-color:#030303;
+    padding: 1em;
 }
+
+.skills{
+    text-align: center;
+    font-size: 1.5rem;
+    padding-bottom: 0.5rem;
+    text-align: center;
+    padding: 1em 2em;
+
+    
+}
+
 
 
 
