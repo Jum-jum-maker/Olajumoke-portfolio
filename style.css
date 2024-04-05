@@ -233,8 +233,9 @@ to{
 .skillSet{
     display: flex;
     justify-content: space-evenly;
-    flex-direction: s;
     flex-direction: row;
+    margin-right: 60px;
+    margin-top: 30px;
 }
 
 
@@ -242,7 +243,7 @@ to{
     padding: 0px;
 }
 
-/* .my-skills{
+ /* .my-skills{
 color: #FFFFFF;
 padding: 30px;
 display: flex;
@@ -250,40 +251,39 @@ background-color:#13100B;
 width: 100%;
 
 
-}
-
-
-
-.skl{
-    font-size: 30px;
-    margin-left: 30PX;
-    
 } */
 
+.pro-hold{
+    background-color:#D3D3D3;
+    /* margin:2em;  */
+    font-size: 1.4em;
+    height: 100%;
+    width: 100%;
 
 
-.projects{
-    background-color:#030303;
-    display: flex;
-    /* width: 60vw; */
-    padding: 1em;
-    flex-direction: column;
+   
 }
 
 .ject{
-    font-size: 50px;
+    font-size: 2rem;
     padding-top: 50px;
     text-align: center;
+}
+
+.img-hold img{
+    margin: auto;
+    margin-top: 20px;
+    margin-left: 60px;
+    
 }
 
 
 #topl{
     display: flex;
     flex-wrap: wrap;
-    width: 100%;
+    /* width: 100%; */
     margin-top: 30px;
     justify-content:center;
-    /* background-color:  #343434 */
     
 }
 
@@ -298,27 +298,14 @@ width: 100%;
     color: #030303;
 }
 
-.pro-hold{
-    min-height: 100vh;
-    background-color:#D3D3D3;
-    /* margin:2em; */
-    max-width: 100%;
-    
-}
 
 
-.img-hold img{
-    margin: auto;
-    margin-top: 20px;
-    margin-left: 60px;
-}
 
 .pro-1{
-    padding-left: 30px;
     color:#030303;
-    /* color:#808080 ; */
     border: none;
     cursor: pointer;
+    text-align: center;
 }
 
  a{
@@ -330,4 +317,11 @@ width: 100%;
 button a{
     text-decoration: none;
     color: #13100B;
+}
+
+.top3{
+    display: flex;
+    justify-content: center;
+
+
 }
