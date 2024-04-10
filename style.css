@@ -3,17 +3,13 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Poppins";
-
-
 }
-/* body{
-    background-color: #13100B;
-} */
 
 #main-background{
     scroll-behavior: smooth;
     background-color: #13100B;
 }
+
 .herder-container{
     display: flex;
     justify-content:space-around;
@@ -23,11 +19,12 @@
     align-items: center;
     position: sticky;
     top: 0;
-
 }
+
 .menuBtn{
     display: none;
 }
+
 .logo{
     color:#13100B;
     font-family: Roboto Condensed;
@@ -38,9 +35,7 @@ li a{
     text-decoration: none;
     color: #030303;
 }
-.text-container{
-    /* margin-right: 150px; */
-}
+
 
 ul{
     display: flex;
@@ -83,6 +78,7 @@ li a{
     place-items: center;
 
 }
+
 .name{
     font-size: 70px;
     color:#FFFFFF;
@@ -126,11 +122,6 @@ to{
 }
 
 
-/* .button{
-    height: 40px;
-    width:40px;
-    border-color: #030303;
-} */
 
 #contact-me{
     margin-top: 20px;
@@ -145,20 +136,6 @@ to{
     cursor: pointer;
 }
 
-    /* .download-cv{
-        margin-top: 50px;
-        margin-left: 20px;
-        height: 40px;
-        width: 10%;
-        border-radius: 10px;
-        border: none;
-        outline: none;
-        background-color: #D3D3D3;
-        border:  solid 2px  #030303;
-        cursor: pointer;
-
-
-} */
 
 .about{
     width: 100%;
@@ -170,19 +147,6 @@ to{
     padding-left: 70px;
 }
 
-    /* color: #13100B;
-    background-color:#D3D3D3;
-    height:100%;
-    /* height: 450px; */
-    /* width: 100%;
-    display: flex;
-    flex-direction: column;
-    padding: 2em 0;
-    text-align: center;
-    place-items:center;
-    justify-content: space-between; */ 
-/* } */
-
 .about-me{
     font-size: 2.5em;
     padding: 3em;
@@ -192,8 +156,8 @@ to{
 .about-texts{
     font-size: 1.5em;
     padding: 3em;
-    /* margin-left: 3em; */
 }
+
     .download-cv{
         padding: 1em;
         border-radius: 10px;
@@ -204,18 +168,10 @@ to{
         cursor: pointer; 
         margin-left: 70px;
         margin-top: 20px;
-        box-shadow: 0px 0px 10px rgba(0, 0, 0, 1.0); /* Apply box shadow */
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 1.0); 
 
     
     }
-    /* .img-top: 5px;
-    margin-left: 40px; */
-    /* padding-left: 15px; */
-    /* padding: 0 3em; */
-
-
-
-
 
 .Skills{
     height: 100%;
@@ -243,15 +199,6 @@ to{
     padding: 0px;
 }
 
- /* .my-skills{
-color: #FFFFFF;
-padding: 30px;
-display: flex;
-background-color:#13100B;
-width: 100%;
-
-
-} */
 
 .pro-hold{
     background-color:#D3D3D3;
@@ -259,10 +206,9 @@ width: 100%;
     font-size: 1.4em;
     height: 100%;
     width: 100%;
-
-
    
 }
+
 
 .ject{
     font-size: 2rem;
@@ -298,13 +244,14 @@ width: 100%;
 }
 
 
-
-
 .pro-1{
     color:#030303;
     border: none;
     cursor: pointer;
-    text-align: center;
+    text-align: left;
+    width: 500px;
+    font-size: 15px; 
+    margin: 0 20px;   
 }
 
  a{
@@ -321,6 +268,4 @@ button a{
 .top3{
     display: flex;
     justify-content: center;
-
-
 }
