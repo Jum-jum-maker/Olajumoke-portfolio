@@ -194,6 +194,11 @@ to{
     margin-top: 30px;
 }
 
+.skl:hover{
+    transform: scale(1.2);
+    transition: .6s  transform ease-in-out;
+}
+
 
 .hero-button{
     padding: 0px;

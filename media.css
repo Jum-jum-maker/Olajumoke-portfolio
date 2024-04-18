@@ -109,6 +109,9 @@
     background-color:#030303;
     padding: 1em;
 }
+.skl:hover{
+    transform: scale(1.2);
+}
 
 .skills{
     text-align: center;
